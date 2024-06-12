@@ -1,5 +1,4 @@
 Name: Bereket Ashebir Alemu
-Student ID: 101282366
 
 Purpose:
     An application for a Garage, which tracks repairs made to customer cars by mechanics.
@@ -33,13 +32,10 @@ List of files:
 - UML.pdf
 
 execution instructions:
+
     For runing the program:
-        enter in the terminal : make a3
-        then to execute enter : ./a3
-
-    For testing the program:
-        enter in the terminal : make a3test
-        then to execute enter : ./a3test
+        enter in the terminal: make a3
+        then to execute enter: ./a3
 
 
-
+This is from Comp 2404 course at Carleton Univsrsity.
