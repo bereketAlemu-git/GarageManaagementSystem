@@ -1,41 +1,40 @@
 Name: Bereket Ashebir Alemu
 
-Purpose:
-    An application for a Garage, which tracks repairs made to customer cars by mechanics.
 
-List of files:
-- main.cc
-- test.cc
-- Makefile
-- Control.h
-- Control.cc
-- TestControl.h
-- TestControl.cc
-- View.h
-- View.cc
-- Garage.h
-- Garage.cc
-- Entity.h
-- Entity.cc
-- Car.h
-- Car.cc
-- RepairList.h
-- RepairList.cc
-- Repair.h
-- Repair.cc
-- Mechanic.h
-- Mechanic.cc
-- Customer.h
-- Customer.cc
-- Tester.h
-- Tester.cc
-- UML.pdf
+# GarageManagementSystem
+This project implements an application for managing repairs in a garage, focusing on class hierarchies, static members, linked list data structures, and memory management.
 
-execution instructions:
+## Setup
 
-    For runing the program:
-        enter in the terminal: make a3
-        then to execute enter: ./a3
+Ensure you have a C++ compiler installed on your system.
 
+## Compilation
 
-This is from Comp 2404 course at Carleton Univsrsity.
+Navigate to the root directory of the project and run the following command:
+
+```bash
+make
+```
+## Executation:
+
+```bash
+make
+```
+
+## Features
+**Car Class:** Manages information about a car including make, model, and year.
+
+**Repair Class:** Tracks repairs performed on customer cars by mechanics.
+
+**RepairList Class:** Uses a linked list to store and manage repair records.
+
+**Entity Class:** Base class for entities (customers and mechanics) tracked by the garage.
+
+**Customer Class:** Inherits from Entity, represents a customer with a car needing repairs.
+
+**Mechanic Class:** Inherits from Entity, represents a mechanic performing repairs.
+
+**Garage Class:** Manages customers, mechanics, and their repairs using suitable data structures.
+
+**Control and TestControl Classes:** Manage interactions and testing of garage operations.
+
