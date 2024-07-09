@@ -18,7 +18,7 @@ make
 ## Executation:
 
 ```bash
-.a3
+./a3
 ```
 
 ## Features
